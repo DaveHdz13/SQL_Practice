@@ -1,0 +1,6 @@
+/* Select all data from a Table or a single column from a Table */
+SELECT * FROM users;
+SELECT name FROM users;
+
+/* Select 2 columns from a Table */
+SELECT age, email FROM users;

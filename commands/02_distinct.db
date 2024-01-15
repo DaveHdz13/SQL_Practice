@@ -1,0 +1,5 @@
+/* Select all the different registries from a Table */
+SELECT DISTINCT * FROM users;
+
+/* Select all the different init_date from a Table */
+SELECT DISTINCT init_date FROM users;

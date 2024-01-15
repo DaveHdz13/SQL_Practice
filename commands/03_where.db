@@ -1,0 +1,5 @@
+/* Select from all data only the data that matches the age */
+SELECT * FROM users WHERE age = 23;
+
+/* Select the name of the users that have an specific age */
+SELECT name FROM users WHERE age = 23;

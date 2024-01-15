@@ -1,0 +1,5 @@
+/* Select all records from the 'users' table where the email ends with 'gmail.com' */
+SELECT * FROM users WHERE email LIKE '%gmail.com';
+
+/* Select all records from the 'users' table where the name starts with 'D' */
+SELECT * FROM users WHERE name LIKE 'D%';

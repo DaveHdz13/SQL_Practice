@@ -1,0 +1,10 @@
+/* This automatically orders by ascendant values */
+SELECT * FROM users ORDER BY age;
+
+SELECT * FROM users ORDER BY age ASC;
+
+/* We use DESC to order the data by descendant */
+SELECT * FROM users ORDER BY age DESC;
+
+/* This select checks the data that matches with init_date and then orders it by descendant age */
+SELECT * FROM users WHERE init_date = '2020-08-02' ORDER BY age DESC;
