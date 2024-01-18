@@ -1,0 +1,1 @@
+SELECT CONCAT(name, surname) FROM users; 

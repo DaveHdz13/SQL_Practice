@@ -1,0 +1,3 @@
+SELECT * FROM users WHERE NAME IN ('Dave');
+
+SELECT * FROM users WHERE NAME IN ('Dave', 'Mary');

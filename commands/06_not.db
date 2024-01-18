@@ -1,0 +1,7 @@
+SELECT * FROM users WHERE NOT name = 'Dave';
+
+SELECT * FROM users WHERE NOT age = 23;
+
+SELECT * FROM users WHERE NOT email = 'correo@gmail.com' OR age = 21;
+
+SELECT * FROM users WHERE NOT email = 'correo@gmail.com' OR age = 20;
